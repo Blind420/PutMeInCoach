@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# WowAddOnStudio Solution File, Format Version 11.00
+Project("{E6E1D386-69D8-4755-9E61-0950293915FC}") = "PutMeInCoach", "PutMeInCoach\PutMeInCoach.wowproj", "{8BA26CD5-77B7-4FF3-9AE7-FCCE0393801D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Any CPU = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BA26CD5-77B7-4FF3-9AE7-FCCE0393801D}.Default|Any CPU.ActiveCfg = Default|Any CPU
+		{8BA26CD5-77B7-4FF3-9AE7-FCCE0393801D}.Default|Any CPU.Build.0 = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

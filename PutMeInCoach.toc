@@ -1,0 +1,15 @@
+##Interface: 51000
+##Title: PutMeInCoach
+##Author: Blind420
+##Dependances: Ace3
+##OptDeps: BugSack, !Swatter
+##SavedVariables: mySavedVar
+
+
+#@no-lib-strip@
+libs\LibStub.lua
+libs\AceGUI-3.0\AceGUI-3.0.xml
+#@end-no-lib-strip@
+
+
+PutMeInCoach.lua

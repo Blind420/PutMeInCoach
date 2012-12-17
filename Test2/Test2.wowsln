@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# WowAddOnStudio Solution File, Format Version 11.00
+Project("{E6E1D386-69D8-4755-9E61-0950293915FC}") = "Test2", "Test2\Test2.wowproj", "{12894052-3745-4A95-98EA-9C3CFC32DEF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Any CPU = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12894052-3745-4A95-98EA-9C3CFC32DEF0}.Default|Any CPU.ActiveCfg = Default|Any CPU
+		{12894052-3745-4A95-98EA-9C3CFC32DEF0}.Default|Any CPU.Build.0 = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

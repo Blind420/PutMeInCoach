@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Deploy" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Test1</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2431bf4f-3fb3-4940-8c8f-b65ff6e8f0f2}</ProjectGuid>
+    <AssemblyName>Test1</AssemblyName>
+    <RootNamespace>Test1</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Test1.toc">
+      <SubType>TableOfContents</SubType>
+    </Content>
+    <Content Include="Frame.xml">
+      <SubType>Frame</SubType>
+    </Content>
+    <Content Include="Frame.lua">
+      <SubType>Code</SubType>
+      <DependentUpon>Frame.xml</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(DevEnvDir)\Extensions\Tools\MSBuild\Microsoft\WowAddonStudio\3.0\WowAddonStudio.targets" />
+  <!--
+	To modify your build process, add your task inside one of the targets below and uncomment it.
+	<Target Name="BeforeClean"></Target>
+	<Target Name="AfterClean"></Target>
+	<Target Name="BeforeRebuild"></Target>
+	<Target Name="AfterRebuild"></Target>
+	<Target Name="BeforeDeploy"></Target>
+	<Target Name="AfterDeploy"></Target>
+	-->
+</Project>

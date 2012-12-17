@@ -1,0 +1,19 @@
+------------------------------------------------------------------------
+r1068 | nevcairiel | 2012-12-10 19:54:18 +0000 (Mon, 10 Dec 2012) | 1 line
+Changed paths:
+   M /trunk/Ace3.toc
+
+Update TOC for 5.1
+------------------------------------------------------------------------
+r1067 | nevcairiel | 2012-12-10 19:50:14 +0000 (Mon, 10 Dec 2012) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-BlizOptionsGroup.lua
+
+AceGUI-3.0: BlizOptionsGroup: The callback for the reset button is "default", not "defaults". Also implement the "refresh" callback.
+------------------------------------------------------------------------
+r1066 | nevcairiel | 2012-09-18 14:36:49 +0000 (Tue, 18 Sep 2012) | 1 line
+Changed paths:
+   M /trunk/AceDBOptions-3.0/AceDBOptions-3.0.lua
+
+AceDBOptions-3.0: Re-order strings alphabetically to make updating from the locale system easier in the future.
+------------------------------------------------------------------------
